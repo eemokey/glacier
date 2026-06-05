@@ -1,5 +1,20 @@
-# GLACIER: Graph-Language Alignment for Chemical Inference and Exploration using Representations
+<p align="center">
+  <img src="https://github.com/eemokey/glacier/blob/main/imgs/icon.png" width="200" />
+</p>
 
+<h1 align="center">GLACIER</h1>
+
+<p align="center">
+  <strong>Graph-Language Alignment for Chemical Inference and Exploration using Representations</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/eemokey/glacier/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+  </a>
+</p>
+
+---
 # Installation
 
 ### Conda Installation 
