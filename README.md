@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/eemokey/glacier/blob/main/imgs/icon.png" width="500" />
+  <img src="https://github.com/eemokey/glacier/blob/main/imgs/icon.png" width="400" />
 </p>
 
 <h1 align="center">GLACIER</h1>
