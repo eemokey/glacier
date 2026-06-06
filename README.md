@@ -15,6 +15,8 @@
 </p>
 
 ---
+
+
 # Installation
 
 ### Conda Installation 
@@ -59,6 +61,13 @@ embedding
 # License
 MIT
 
+
+# Citation
+
+Emily Nguyen, Yongchan Hong, Harsh Toshniwal, Yan Liu, and Andreas
+Luttens. 2026. GLACIER: A Multimodal Student-Teacher Foundation Model
+for Molecular Property Prediction. In Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD ’26), August 09–13, 2026, Jeju Island, Republic of Korea. ACM, New York, NY, USA,
+17 pages. https://doi.org/10.1145/3770855.3819032
 
 
 Please feel free to download and use these models for your own research purposes. We only ask that you cite our work appropriately if you use it in your work. Thank you for your interest in our research!
