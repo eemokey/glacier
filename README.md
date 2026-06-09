@@ -39,12 +39,12 @@ pip install -r requirements.txt
 import torch 
 from huggingface_hub import snapshot_download
 import sys
-repo_dir = snapshot_download(repo_id="glacier-hf/Glacier-100k-Mi")
+repo_dir = snapshot_download(repo_id="glacier-hf/GLACIER-100k-MiniMol")
 sys.path.append(repo_dir)
 from data.dataloader import SmilesMoleculeDataset, build_dataloader
 from glacier_student import Glacier
 
-model = Glacier.from_pretrained("glacier-hf/Glacier-100k-Mi")
+model = Glacier.from_pretrained("glacier-hf/GLACIER-100k-MiniMol")
 
 dataset = SmilesMoleculeDataset(smiles=["Cn1c(=O)c2c(ncn2C)n(C)c1=O"])
 dataloader = build_dataloader(dataset, batch_size=1)
