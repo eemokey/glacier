@@ -147,7 +147,7 @@ class SmilesMoleculeDataset:
     """
     def __init__(self, smiles, teacher_embeddings=None,  labels=None, rdkit=None,
                  featurizer= featurizers.SimpleMoleculeMolGraphFeaturizer(), 
-                  is_train=True):
+                  is_train=False):
         
         # preprocess smiles
         preprocessed_smiles = create_MoleculeDatapoint(smiles, labels) # convert to MoleculeDatapoint

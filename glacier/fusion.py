@@ -124,7 +124,7 @@ class FinslerFusion(FusionMechanismBase):
         amp_cap = F.softplus(self.amp_net(llm_embed)) + 1.0
         
 
-        confidence = amp_cap * torch.exp(-min_dist * self.scale_factor * sensitivity)
+        confidence = amp_cap * torch.sigmoid(-min_dist * self.scale_factor * sensitivity)
         
         # Apply Residual
         refined_llm = llm_embed + (confidence * correction)
