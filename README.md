@@ -1,31 +1,16 @@
 # GLACIER: A Multimodal Student-Teacher Foundation Model for Molecular Property Prediction
 
 
-<p align="center">
-    <strong>KDD 2026</strong>
-</p>
+<p align="center"><strong>KDD 2026</strong></p>
 
-  <!-- License -->
   <p align="center">
-  <a href="https://github.com/eemokey/glacier/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  </a>
-  <!-- arXiv -->
-  <a href="https://arxiv.org/abs/2606.11382"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'>
-  </a>
-  <!-- Hugging Face Model -->
-  <a href='https://huggingface.co/glacier-hf/GLACIER-100k-MiniMol'>
-    <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-F8D44E' alt='HF Model'>
-    </a>
-  <a href='https://huggingface.co/datasets/glacier-hf/glacier_pretrain_EnamineREAL_100k'>
-    <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF-Dataset-F8D44E.svg' alt='HF Dataset'>
-    </a>
+  <a href="https://github.com/eemokey/glacier/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
+  <a href="https://arxiv.org/abs/2606.11382"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
+  <a href='https://huggingface.co/glacier-hf/GLACIER-100k-MiniMol'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-F8D44E' alt='HF Model'></a>
+  <a href='https://huggingface.co/datasets/glacier-hf/glacier_pretrain_EnamineREAL_100k'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF-Dataset-F8D44E.svg' alt='HF Dataset'></a>
 </p> 
 
-<p align="center">
-  <img src="https://github.com/eemokey/glacier/blob/main/imgs/icon.png" width="400" />
-
-</p>
+<p align="center"><img src="https://github.com/eemokey/glacier/blob/main/imgs/icon.png" width="400" /></p>
 
 GLACIER (Graph-Language Alignment for Chemical Inference and Exploration using Representations) is a multimodal student-teacher foundation model designed for molecular property prediction. It integrates molecular graphs, SMILES strings, and physicochemical descriptors to learn rich molecular embeddings.
 
