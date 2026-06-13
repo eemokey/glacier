@@ -20,8 +20,8 @@ GLACIER (Graph-Language Alignment for Chemical Inference and Exploration using R
 
 ### Conda  
 ```bash
-conda env_create -f environment.yml
-conda activate glacier
+conda env create -f environment.yml
+conda activate glacier_env
 ```
 
 

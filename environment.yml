@@ -1,26 +1,23 @@
 name: glacier_env
 channels:
-  - pytorch
-  - nvidia
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11.8
-  - pip=25.1
-  - pytorch=2.5.1
-  - pytorch-cuda=12.1
-  - numpy=2.4.4
-  - pandas=2.2.3
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
   - rdkit=2025.09.3
-  - joblib=1.4.2
-  - scikit-learn=1.6.0
+  - joblib
+  - scikit-learn
   - pip:
+    - torch==2.5.1
     - lightning==2.4.0
     - pytorch-lightning==2.4.0
     - torchmetrics==1.6.0
-    - transformers==5.5.4
-    - huggingface-hub==1.11.0
+    - transformers
+    - huggingface-hub
     - chemprop==2.2.1
-    - matplotlib==3.10.3
-    - seaborn==0.13.2
-    - tqdm==4.67.3
+    - matplotlib
+    - seaborn
+    - tqdm
