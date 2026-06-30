@@ -18,7 +18,10 @@ GLACIER (Graph-Language Alignment for Chemical Inference and Exploration using R
 
 # Environment Setup
 
+The experiments in the paper were run with **PyTorch 2.5.1 (CUDA 12.1)** in **Python 3.11**. 
+
 ### Conda  
+
 ```bash
 conda env create -f environment.yml
 conda activate glacier_env
