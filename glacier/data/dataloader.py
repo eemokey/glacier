@@ -553,7 +553,7 @@ def build_dataloader(
     dataset: MoleculeDataset | MolAtomBondDataset | ReactionDataset | MulticomponentDataset,
     batch_size: int = 1024,
     num_workers: int = 0,
-    shuffle: bool = True,
+    shuffle: bool = False,
     **kwargs,
 ):
     """ Build a dataloader given MolGraphDataset
